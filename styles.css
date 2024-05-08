@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 50px;
     background: linear-gradient(to bottom right, #3498db, #2ecc71);
 }
 
@@ -52,7 +52,7 @@ body {
     margin-right: 20px;
 }
 
-.nav-links .signup {
+.signup {
     color: #fff;
     text-decoration: none;
     margin-right: 20px;
@@ -60,10 +60,13 @@ body {
     border-radius: 5px;
     background-color: #2ecc71;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 
-.nav-links .signup:hover {
-    background-color: #27ae60;
+
+.signup-up-button:hover {
+    background-color: #03130a;
+    padding: 13px 23px;
 }
 
 .hero-section{
