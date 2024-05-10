@@ -10,6 +10,7 @@ body {
     height: 100vh;
 }
 
+
 .phone-logo {
     position: absolute;
     top: 20px;
@@ -30,27 +31,32 @@ body {
     font-weight: lighter;
 }
 
-.header-content {
-    position: absolute;
+.header {
     display: flex;
-    color: #fff;
+    justify-content: space-between;
+    align-items: center;
     padding: 50px;
+    color: #fff;
     font-weight: lighter;
-    right: 35px;
-    font-size: 15px;
-    margin-left: auto;
-    margin-right: auto;
+}
 
-
-
+.header-content {
+    display: flex;
+    align-items: center;
 }
 
 .nav-links a {
     color: #fff;
-    text-decoration: white;
+    text-decoration: none;
     margin-left: 20px;
     margin-right: 20px;
 
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .signup {
