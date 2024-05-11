@@ -118,3 +118,64 @@ body {
     justify-content: center;
     margin-top: -50px;
 }
+
+.sub-hero-section{
+    /*line-height: 150.5%;*/
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    /*gap: 20px;*/
+    padding-top: 30px;
+    align-items: center;
+}
+
+.sub-hero-section > p{
+    font-family: Arial, serif;
+    font-style: normal;
+    /*font-weight: 400;*/
+    font-size: 16px;
+}
+
+.sub-hero-section-A > div > h3 {
+    font-family: IBM Plex Sans, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 65px;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: -.02em;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-hero-section-A > div > ul{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-top: -50px;
+}
+
+.sub-hero-section-A > div > ul{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-top: -50px;
+}
+
+.sub-hero-section-B > h3 > p{
+    font-family: Arial, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.5%;
+    color: #fff;
+    padding-left: 18px;
+    justify-content: center;
+    margin-top: -50px;
+
+}
